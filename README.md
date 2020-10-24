@@ -1,1 +1,1 @@
-# Lessons
+College exercises in C language
