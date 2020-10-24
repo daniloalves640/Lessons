@@ -1,0 +1,26 @@
+//Calculando a média de 8 notas usando vetores
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+
+    float media=0;
+    float notas [8];
+    int indice;
+
+    for (indice = 0; indice < 8; indice ++){
+        printf("Insira a nota: ", indice);
+        scanf("%f", &notas[indice]);
+        media += notas [indice];
+    }
+
+    media = media /8;
+
+    printf("Media Final: %.2f", media);
+    
+    printf("\nPress ENTER key to Continue\n");
+    getchar();
+    return 0;
+}
